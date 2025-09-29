@@ -1,6 +1,6 @@
 PYTHON = python
 
-TEST_SCRIPT = src/test.py
+TEST_SCRIPT = test.py
 
 .PHONY: all build run test clean
 

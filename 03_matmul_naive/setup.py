@@ -1,18 +1,15 @@
+# In: 03_matmul_naive/setup.py
 from setuptools import setup
 from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 
 setup(
     ext_modules=[
         CUDAExtension(
-            # The name of the Python module we will import
-            name='matmul_naive', 
-            
-            # The list of our new source files
+            name='matmul_cpp', # Use a simple, new name
             sources=[
-                'src/matmul.cpp',
-                'src/matmul_kernel.cu',
+                'matmul.cpp',
+                'matmul_kernel.cu',
             ],
-            # We still need the common utils for error checking if you use them
             include_dirs=['../common/include']
         )
     ],
