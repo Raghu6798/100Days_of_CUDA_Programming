@@ -1,0 +1,42 @@
+# Python-generated files
+__pycache__/
+*.py[co]
+*.pyd
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# PyTorch / C++/CUDA extensions
+*.so
+*.dll
+*.lib
+*.exp
+*.obj
+*.o
+
+# Visual Studio / Windows
+*.sln
+*.vcxproj*
+*.user
+*.ninja
+*.ipch
+*.pdb
+*.idb
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp

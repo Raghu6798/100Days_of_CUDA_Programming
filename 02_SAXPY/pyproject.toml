@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "torch"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "02_SAXPY"
+version = "0.1.0"
+description = "My second kernel function"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
