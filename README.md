@@ -52,7 +52,7 @@ python -m venv .venv
 # Linux/macOS
 ```bash
 source .venv/bin/activate
- ```     
+ ```  bash   
 pip install --upgrade pip
 pip install torch setuptools ninja
 ```
@@ -119,3 +119,4 @@ Happy CUDA programming! ⚡️
 I can also make a **Day-wise table of contents** with all 100 days listed in Markdown so readers see the roadmap clearly.  
 
 Do you want me to create that too?
+
