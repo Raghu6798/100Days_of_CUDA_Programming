@@ -16,12 +16,13 @@ CUDA (Compute Unified Device Architecture) is **NVIDIA's parallel computing plat
 
 Each day’s exercises are organized in separate folders:
 
+``` bash
 day_1/ # Vector addition
 day_2/ # SAXPY operation
 day_3/ # Dot product kernel
 ...
 common/ # Utility headers and includes
-
+```
 
 Typical files in each day:
 
@@ -116,5 +117,6 @@ Happy CUDA programming! ⚡️
 I can also make a **Day-wise table of contents** with all 100 days listed in Markdown so readers see the roadmap clearly.  
 
 Do you want me to create that too?
+
 
 
