@@ -88,27 +88,24 @@ make clean → Removes all compiled and temporary files
 
 As an LLM Engineer, the goal of this 100-day journey is to:
 
-Gain a deep understanding of GPU parallelism and memory management.
+# 1)Gain a deep understanding of GPU parallelism and memory management.
+# 2)Write custom CUDA kernels to accelerate operations like vector addition, SAXPY, dot products, and matrix multiplications.
+# 3)Experiment with optimizations for LLM inference, such as efficient tensor computations and memory access patterns.
+# 4) Build a foundation for integrating low-level GPU acceleration in deep learning pipelines.
 
-Write custom CUDA kernels to accelerate operations like vector addition, SAXPY, dot products, and matrix multiplications.
-
-Experiment with optimizations for LLM inference, such as efficient tensor computations and memory access patterns.
-
-Build a foundation for integrating low-level GPU acceleration in deep learning pipelines.
-
-Contributions
+### Contributions
 
 This repository is primarily for personal learning. However, contributions in the form of:
 
-Optimized CUDA kernels
+1)Optimized CUDA kernels
 
-Additional exercises
+2)Additional exercises
 
-Notes or documentation improvements
+3) Notes or documentation improvements
 
 are welcome via pull requests.
 
-License
+### License
 
 This repository is licensed under the MIT License. See the LICENSE
  file for details.
@@ -119,4 +116,5 @@ Happy CUDA programming! ⚡️
 I can also make a **Day-wise table of contents** with all 100 days listed in Markdown so readers see the roadmap clearly.  
 
 Do you want me to create that too?
+
 
